@@ -1,4 +1,22 @@
 
+/* ============== */
+/* --- Layout --- */
+/* ============== */
+
+html, body, .capa {
+	height: 100%;
+}
+
+
+body {
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
 /* --- Barra de Navegação --- */
 
 nav.navbar-transparente {
@@ -30,10 +48,43 @@ nav.navbar-transparente {
 	margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-fixed-top .navbar-nav>li>a {
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-fixed-top .navbar-nav>li>a:hover {
 	color: #9bf0e1;
 }
+
+/* --- Capa principal do layout --- */
+
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* ================== */
+/* --- Tipografia --- */
+/* ================== */
+
+h1 {
+	font-size: 90px;
+	font-weight: 600;
+	letter-spacing: -6px;
+}
+
+
+
+
+
+
+
+
+
