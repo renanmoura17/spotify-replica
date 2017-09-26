@@ -50,12 +50,13 @@ nav.navbar-transparente {
 	margin: 16px 10px;
 }
 
-.navbar-fixed-top .navbar-nav>li>a {
+.navbar-fixed-top .navbar-nav>li>a, footer .nav a {
 	color: white;
 }
 
-.navbar-fixed-top .navbar-nav>li>a:hover {
+.navbar-fixed-top .navbar-nav>li>a:hover, footer .nav a:hover {
 	color: #9bf0e1;
+	background: none;
 }
 
 /* --- Capa principal do layout --- */
@@ -137,6 +138,21 @@ nav.navbar-transparente {
 
 footer {
 	background: black;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer .nav a {
+	color: white;
+}
+
+footer .nav a:hover {
+	color: #9bf0e1;
+	background: none;
+}
+
+.item-rede-social {
+	float: right;
 }
 
 /* ================== */
@@ -160,6 +176,12 @@ h3 {
 	font-size: 40px;
 	font-weight: 600;
 	letter-spacing: -2px;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
 #servicos h2, #servicos h3 {
