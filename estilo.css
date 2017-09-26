@@ -15,6 +15,8 @@ body {
 	background-attachment: fixed;
 
 	font-family: "Helvetica", "Arial", sans-serif;
+
+	overflow-x: hidden;
 }
 
 /* --- Barra de Navegação --- */
@@ -116,6 +118,27 @@ nav.navbar-transparente {
 	margin: 20px 0;
 }
 
+/* --- Conteúdo adicional --- */
+
+#conteudo-adicional {
+	color: white;
+	padding: 20px 0;
+}
+
+.rotacionar {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+
+	padding-left: 80px;
+}
+
+/* --- Rodapé --- */
+
+footer {
+	background: black;
+}
+
 /* ================== */
 /* --- Tipografia --- */
 /* ================== */
@@ -143,6 +166,9 @@ h3 {
 	color: #7c25f8;
 }
 
+#conteudo-adicional h3{
+	color: #9bf0e1;
+}
 
 
 
