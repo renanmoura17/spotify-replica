@@ -105,6 +105,17 @@ nav.navbar-transparente {
 	color: black;
 }
 
+/* --- Conteúdo --- */
+
+#servicos {
+	background: white;
+	padding: 20px 0;
+}
+
+.albuns {
+	margin: 20px 0;
+}
+
 /* ================== */
 /* --- Tipografia --- */
 /* ================== */
@@ -114,6 +125,22 @@ h1 {
 	font-weight: 600;
 	letter-spacing: -6px;
 	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: -5px;
+}
+
+h3 {
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: -2px;
+}
+
+#servicos h2, #servicos h3 {
+	color: #7c25f8;
 }
 
 
